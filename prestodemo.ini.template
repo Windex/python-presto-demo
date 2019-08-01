@@ -1,0 +1,12 @@
+[Creds]
+user=ca/youruser
+password=YourPassWord!123
+
+[DB]
+host=clouddata.pason.com
+port=443
+catalog=hive
+schema=hub_ca_0123456789
+http_scheme=https
+query=SELECT well_info_id, well_name, from_unixtime(spud, time_zone) AS spud_date FROM well_info_view
+

@@ -1,0 +1,2 @@
+pandas
+presto-python-client
